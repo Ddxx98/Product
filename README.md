@@ -40,7 +40,6 @@
 - **Method**: GET
 - **Request Body**: {
     "name":"Book",
-    "price": 20,
 }
 - **Response**:"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9eyJsb2dnZWRJbkFzIjoiYWRtaW4iLCJpYXQiOjE0MjI3Nzk2Mzh9gzSraSYS8EXBxLN_oWnFSRgCzcmJmMjLiuyu5CSpyHI"
 
