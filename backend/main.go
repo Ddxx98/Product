@@ -13,7 +13,7 @@ func main() {
 	r := mux.NewRouter()
 
 	r.HandleFunc("/",handler.Home)
-	r.HandleFunc("/token", handler.SetToken).Methods("POST")
+	r.HandleFunc("/token", handler.SetToken).Methods("GET")
 	r.HandleFunc("/products", handler.GetProducts).Methods("GET")
 
 
